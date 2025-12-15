@@ -1,4 +1,4 @@
-bucket_name           = "s3_bucket_15122025"
+bucket_name           = "s3-bucket-15122025"
 kms_key_arn           = ""
 enable_logging        = false
 logging_target_bucket = ""
