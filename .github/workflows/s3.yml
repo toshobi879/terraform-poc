@@ -26,5 +26,5 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - run: terraform init
-      - run: terraform plan
+      - run: terraform plan -var-file="s3.tfvars" -auto-approve
       - run: terraform apply -var-file="s3.tfvars" -auto-approve
