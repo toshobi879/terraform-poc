@@ -1,7 +1,7 @@
 name: Destroy S3
 
 on:
-  workflow_dispatch:   # manual trigger only
+  workflow_dispatch:   # manual trigger only#
 
 jobs:
   destroy:
